@@ -8,6 +8,10 @@ https://bit.ly/3hKwUBL
 
 ## Screenshots
 ![](/lib/images/Screenshot_1.jpg)
+Input Page
+
+![](/lib/images/Screenshot_1.jpg)
+Result Page
 
 ## Getting Started
 
