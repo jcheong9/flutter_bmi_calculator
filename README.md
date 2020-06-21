@@ -7,11 +7,11 @@ https://bit.ly/3hKwUBL
 
 
 ## Screenshots
-![](/lib/images/Screenshot_1.jpg)
-\nInput Page
+![](/lib/images/Screenshot_1.jpg)__
+Input Page
 
-![](/lib/images/Screenshot_1.jpg)
-\nResult Page
+![](/lib/images/Screenshot_1.jpg)__
+Result Page
 
 ## Getting Started
 
