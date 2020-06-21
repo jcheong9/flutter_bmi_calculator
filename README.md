@@ -11,7 +11,7 @@ Demo video link: https://bit.ly/3hKwUBL
 ![](/lib/images/Screenshot_1.jpg)
 
 **Result Page**<br />
-![](/lib/images/Screenshot_1.jpg)
+![](/lib/images/Screenshot_2.jpg)
 
 
 ## Getting Started
