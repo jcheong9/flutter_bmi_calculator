@@ -1,6 +1,9 @@
 # flutterbmicalculator
 
-A new Flutter application.
+A Flutter application that allows users to calculate BMI index. 
+
+## Flutter Demo
+https://bit.ly/3hKwUBL
 
 ## Getting Started
 
