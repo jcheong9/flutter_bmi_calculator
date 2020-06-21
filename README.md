@@ -7,10 +7,10 @@ Demo video link: https://bit.ly/3hKwUBL
 
 
 ## Screenshots
-Input Page<br />
+**Input Page: **<br />
 ![](/lib/images/Screenshot_1.jpg)
 
-Result Page<br />
+**Result Page: **<br />
 ![](/lib/images/Screenshot_1.jpg)
 
 
