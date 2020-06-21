@@ -18,7 +18,7 @@ class BottomButton extends StatelessWidget {
           CalculatorBrain cal = CalculatorBrain(height: height,weight:weight);
           Navigator.pushNamed(context, navigateToRoute,arguments: ResultPage(bmiResult: cal.calculateBMI(),resultText: cal.getResult(),interpretation: cal.getInterpretation()));
         }else{
-          Navigator.pushNamed(context, navigateToRoute);
+          Navigator.pop(context);
 
         }
       },
