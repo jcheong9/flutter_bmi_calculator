@@ -5,6 +5,10 @@ A Flutter application that allows users to calculate BMI index.
 ## Flutter Demo
 https://bit.ly/3hKwUBL
 
+
+## Screenshots
+![](/lib/images/Screenshot_1.jpg)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
