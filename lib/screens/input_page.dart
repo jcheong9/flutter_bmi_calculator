@@ -1,10 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'icon_content.dart';
-import 'reusable_card.dart';
+import 'package:flutterbmicalculator/components/icon_content.dart';
+import 'package:flutterbmicalculator/components/reusable_card.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'constant.dart';
-import 'RoundIconButton.dart';
+import '../constant.dart';
+import '../components/RoundIconButton.dart';
+import '../components/BottomButton.dart';
+import 'calculator_brain.dart';
 
 enum Gender { male, female }
 
@@ -75,7 +77,7 @@ class _InputPageState extends State<InputPage> {
               children: <Widget>[
                 Expanded(
                   child: ReusableCard(
-                    colour: kInactiveCarColour,
+                    colour: kActiveCarColour,
                     cardChild: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
@@ -128,7 +130,7 @@ class _InputPageState extends State<InputPage> {
               children: <Widget>[
                 Expanded(
                   child: ReusableCard(
-                    colour: kInactiveCarColour,
+                    colour: kActiveCarColour,
                     cardChild: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
@@ -174,7 +176,7 @@ class _InputPageState extends State<InputPage> {
                 ),
                 Expanded(
                   child: ReusableCard(
-                    colour: kInactiveCarColour,
+                    colour: kActiveCarColour,
                     cardChild: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
@@ -221,26 +223,13 @@ class _InputPageState extends State<InputPage> {
               ],
             ),
           ),
-          Container(
-            child: Center(
-              child: Text('CALCULATE YOUR BMI',
-                style: TextStyle(
-                  fontSize: 18.0,
-                  fontWeight: FontWeight.w400,
-                  letterSpacing: 1.5
-                ),
-              ),
-
-            ),
-            color: kBottomContainerColour,
-            margin: EdgeInsets.only(top: 10.0),
-            width: double.infinity,
-            height: kBottomContainerHeight,
-          )
+          BottomButton(textButton: 'CALCULATE YOUR BMI', navigateToRoute: '/result', height: height, weight: weight,)
         ],
       ),
     );
   }
 }
+
+
 
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'constant.dart';
+import 'package:flutterbmicalculator/constant.dart';
 
 
 class IconContent extends StatelessWidget {
