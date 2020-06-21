@@ -7,10 +7,10 @@ https://bit.ly/3hKwUBL
 
 
 ## Screenshots
-![](/lib/images/Screenshot_1.jpg)__
+![](/lib/images/Screenshot_1.jpg)<br />
 Input Page
 
-![](/lib/images/Screenshot_1.jpg)__
+![](/lib/images/Screenshot_1.jpg)<br />
 Result Page
 
 ## Getting Started
